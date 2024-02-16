@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: rgb(99, 99, 99);
+        }
+        header {
+            border: 5px solid lightgrey;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 0px;
+        }
+        main > p {
+            text-align: justify;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(63, 63, 63);
+            padding: 0px;
+            border-radius: 10px;
+            
+        }
+        a:hover {
+            color: cadetblue;
+            text-decoration: underline;
+        }
+        a {
+            padding: 10px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        main {
+            background-color: #fff;
+            margin: 10px 0px;
+            padding: 5px;
+            border: 5px solid lightgray;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: #fff;
+            margin: 0px;
+            padding: 4px;}
+        footer > p {
+            text-align: center;
+            margin: 0px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ola mundo!</h1>
+        <nav>
+            <a href="caixa01.html">home</a>
+            <a href=""> entre em contato</a>
+            <a href=""> mais sobre nós</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="news"></section>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod porro, et nihil rem iusto. Velit necessitatibus obcaecati, unde soluta non asperiores, ducimus nam voluptatem cum, minima illum quidem hic!</p>
+            <aside>
+                <p>escrito por mim</p>
+            </aside>
+        </article>
+        <section id="assuntos"></section>
+    </main> 
+    <footer>
+        <p>feito por kev.dev</p>
+
+    </footer>
+</body>
+</html>
