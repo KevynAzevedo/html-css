@@ -1,0 +1,140 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@keyframes titulo {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+* {
+    margin: 0px;
+}
+body {
+    background-color: #ffffff;
+}
+header {
+    background-color: #b689fd;
+}
+hr {
+    color: #545454;
+    background-color: #545454;
+    height: 2px;
+}
+h1, h2 {
+    font-family: "Love Ya Like A Sister", cursive;
+    animation-name: titulo;
+    color: aliceblue;
+    text-align: center;
+    animation-duration: 2s;
+    text-shadow: rgba(0, 0, 0, 0.468) 1px -2px;
+
+}
+button {
+    color: aliceblue;
+    background-color: #c5a1ff;
+    width: 100px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 0px 5px 5px 0px;
+    text-shadow: #00000077 1px -1px;
+}
+button:hover {
+    background-color: #d8c0ff;
+}
+p {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+#texto {
+    width: 50%;;
+}
+#v1{
+    animation-name: titulo;
+    animation-duration: 10s;
+}
+#v2 {
+    animation-name: titulo;
+    animation-duration: 15s;
+}
+#v3 {
+    animation-name: titulo;
+    animation-duration: 20s;
+}
+#v4 {
+    animation-name: titulo;
+    animation-duration: 30s;
+}
+#v5 {
+    animation-name: titulo;
+    animation-duration: 40s;
+}
+#v6 {
+    animation-name: titulo;
+    animation-duration: 50s;
+}
+#v7, #v8, #v9 {
+    animation-name: titulo;
+    animation-duration: 70s;
+}
+#v10 {
+    animation-name: titulo;
+    animation-duration: 85s;
+}
+em {
+    color: #b689fd;
+}
+
+#imagens {
+    width: 50%;  
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    grid-template-rows: 150px 150px 150px 150px;
+    
+}
+#i3 {
+    animation-name: titulo;
+    animation-duration: 20s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#i4 {
+    animation-name: titulo;
+    animation-duration: 30s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#i5 {
+    animation-name: titulo;
+    animation-duration: 40s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#i6 {
+    animation-name: titulo;
+    animation-duration: 50s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#i7 {
+    animation-name: titulo;
+    animation-duration: 70s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#i8 {
+    animation-name: titulo;
+    animation-duration: 85s;
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}

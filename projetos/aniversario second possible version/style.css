@@ -1,0 +1,122 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@keyframes button {
+    from {
+        opacity: 0%;
+        translate: 0 100vw;
+    }
+    to {
+        opacity: 100%;
+        translate: 0 0vw;
+    }
+}
+* {
+    margin: 0%;
+}
+body {
+    background-color: rgb(190, 205, 255);
+}
+header {
+    background-color:#af94ff;
+    max-height: 300px;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: #f5ecff;
+    text-shadow:3px 2px 1px #00000046 ;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 5px;
+    color: #f5ecff;
+    text-shadow:3px 2px 1px #00000046 ;
+}
+#cat {
+    max-height: 50px;
+    margin: auto;
+    display: block;
+}
+nav {
+    background-color: #ccbbff;
+    text-align: center;
+}
+hr {
+    height: 2px;
+    border: 0px;
+    background-color: #ffffff2b;
+}
+main {
+    height: 200px;
+}
+#declaraçao {
+    color: #ffffff;
+    text-shadow:1px 1px 2px #0000009b ;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    text-align: justify;
+    margin: 20px 10px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#principal {
+    text-align: start;
+}
+#secundario {
+    text-align: start;
+}
+a {
+    background-image: linear-gradient(45deg, #af94ff, #EBB0A7);
+    border-radius: 10px;
+    max-width: 500px;
+    min-height: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+    padding: 0px 10px;
+    margin: auto auto 5px auto;
+    animation: button 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+a:hover {
+    color: #5f4a9e;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.516);
+}
+#um {
+ margin-top: 20px;
+}
+.button {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.letras {
+    align-content: center;
+}
+footer {
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    background-color: #af94ff;
+    height: 30px;
+    margin-top: 90%;
+}
+abbr {
+    text-decoration: none;
+    color: #ccbbff;
+}
+.ult {
+    text-decoration: underline;
+    color: #d8d8d8;
+}

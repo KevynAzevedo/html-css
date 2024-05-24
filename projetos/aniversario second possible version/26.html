@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aniversario :b</title>
+    <link rel="stylesheet" href="26.css">
+</head>
+<body>
+    <script>
+        /*window.alert ("Você não deveria estar aqui né?")
+        window.confirm ("Vai mesmo seguir em frente?")
+        var nome = window.prompt ("Então me escreva seu nome seu delinquênte")
+        window.alert ("tudo bem delinquente " + nome + " mas eu te avisei")*/
+        function fuja() {
+            var bn = document.getElementById("nao")
+
+            var lj = window.innerWidth;
+            var aj = window.innerHeight;
+
+            var mX = lj - bn.offsetWidth;
+            var mY = aj - bn.offsetHeight;
+
+            var aX = Math.floor(Math.random() * mX);
+            var aY = Math.floor(Math.random() * mY);
+
+            bn.style.minwidth = "100px";
+            bn.style.minheight = "50px"
+            bn.style.marginLeft = aX + "px";
+            bn.style.marginTop = aY + "px";
+        }
+    </script>
+    <header> 
+        <h1>Sabes que tu não deveria estar aqui. Né?</h1>
+        <h2> Você quer ficar apenas nessa tela e não receber nenhum outro spoiler? Que tal?</h2>
+    </header>
+    <main>
+        <div id="yes">
+            <button id="sim">
+                <a href="https://youtu.be/dQw4w9WgXcQ?list=TLGGOJ2Y7EGpjxIyMzA1MjAyNA" target="_blank">sim</a>
+            </button>
+        </div>
+        <div id="not">
+            <button id="nao" onclick="fuja()">
+                <a>não</a>
+            </button>
+        </div>
+    </main>
+</body>
+</html>

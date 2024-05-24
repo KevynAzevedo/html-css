@@ -1,0 +1,116 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@keyframes titulo {
+    from {
+        opacity: 0%;
+        translate: -100vw 0;
+    }
+    to {
+        opacity: 100%;
+        translate: 0 0;
+    }
+}
+@keyframes imagens {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+* {
+    margin: 0px;
+}
+body {
+    background-color: #ffffff;
+}
+header {
+    background-color: #c5a1ff;
+}
+hr {
+    color: #545454;
+    background-color: #545454;
+    height: 2px;
+}
+h1, h2 {
+    font-family: "Love Ya Like A Sister", cursive;
+    animation-name: titulo;
+    color: aliceblue;
+    text-align: center;
+    animation-duration: 2s;
+    text-shadow: rgba(0, 0, 0, 0.468) 1px -2px;
+
+}
+button {
+    color: aliceblue;
+    background-color: #c5a1ff;
+    width: 100px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    border-radius: 0px 5px 5px 0px;
+    text-shadow: #00000077 1px -1px;
+}
+button:hover {
+    background-color: #d0b7fa;
+    font-size: 1.4em;
+}
+p {
+    font-size: 1.3em;
+    line-height: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+#texto {
+    width: 60%;
+}
+.texto {
+    animation: titulo 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+.texto2 {
+    animation: titulo 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 20%
+}
+em {
+    color: #b689fd;
+}
+#imagens {
+    max-width: 40%;  
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 20px;
+    
+}
+.imagens {
+    max-width: 250px;
+    max-height: 150px;
+    border-radius:10px 20px;
+    animation: imagens 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+#i3 {
+    max-width: 500px;
+    max-height: 150px;
+    border-radius:10px 20px;
+}
+#in {
+    opacity: 0%;
+    max-width: 350px;
+    max-height: 60px;
+}
+#td {
+    max-height: 200px;
+}
+#big {
+    width: 150px;
+}
